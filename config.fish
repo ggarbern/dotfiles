@@ -12,3 +12,18 @@ set -gx FZF_DEFAULT_COMMAND  'rg --files --no-ignore-vcs --hidden --glob "!.git/
 set -g -x EDITOR nvim
 set -g -x CLICOLOR 1
 set grc_wrap_commands cat cvs df diff dig gcc g++ ifconfig make mount mtr netstat pcommands cat cvs df diff dig gcc g++ ifconfig make mount mtr netstat ping ps tail traceroute wdiff
+
+# set SPACEFISH_PROMPT_ADD_NEWLINE false
+# set SPACEFISH_PROMPT_SEPARATE_LINE false
+# set SPACEFISH_USER_SHOW always
+set SPACEFISH_RUST_SYMBOL '🦀 '
+set SPACEFISH_RUST_VERBOSE_VERSION true
+
+# ls
+alias ls="exa"
+alias la="exa -la"
+alias ll="exa -l"
+alias lll="exa -l | less"
+alias lla="exa -la"
+alias llt="exa -T"
+alias llfu="exa -bghHliS --git"
