@@ -30,6 +30,7 @@ alias lt="exa -T"
 alias lty="exa -ls=extension"
 alias llt="exa -lT"
 alias lg="exa -bghHliS --git"
+alias lga="exa -abghHliS --git"
 
 # rg
 alias rgs="rg -S"
