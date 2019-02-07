@@ -34,3 +34,4 @@ alias lg="exa -bghHliS --git"
 # rg
 alias rgs="rg -S"
 alias rgh="rg -uuS"
+alias rgt="rg -t"
