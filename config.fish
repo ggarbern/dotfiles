@@ -11,7 +11,7 @@ set -U fish_user_paths $HOME/.cargo/bin $HOME/.local/bin $HOME/.multirust/toolch
 set -gx FZF_DEFAULT_COMMAND  'rg --files --no-ignore-vcs --hidden --glob "!.git/*"'
 set -g -x EDITOR code
 set -g -x CLICOLOR 1
-set grc_wrap_commands cat cvs df diff dig gcc g++ ifconfig make mount mtr netstat pcommands cat cvs df diff dig gcc g++ ifconfig make mount mtr netstat ping ps tail traceroute wdiff
+# set grc_wrap_commands cat cvs df diff dig gcc g++ ifconfig make mount mtr netstat pcommands cat cvs df diff dig gcc g++ ifconfig make mount mtr netstat ping ps tail traceroute wdiff
 
 set -U FZF_LEGACY_KEYBINDINGS 0
 
