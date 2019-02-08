@@ -34,6 +34,8 @@ alias llt="exa -lT"
 alias lg="exa -bghHliS --git"
 alias lga="exa -abghHliS --git"
 
+alias md="mkdir"
+
 # rg
 alias rgs="rg -S"
 alias rgh="rg -uuS"
