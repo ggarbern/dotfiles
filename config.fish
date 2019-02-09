@@ -40,3 +40,6 @@ alias md="mkdir"
 alias rgs="rg -S"
 alias rgh="rg -uuS"
 alias rgt="rg -t"
+
+# vlc
+alias vlc="/Applications/VLC.app/Contents/MacOS/VLC"
