@@ -15,6 +15,18 @@ set -g -x CLICOLOR 1
 
 set -U FZF_LEGACY_KEYBINDINGS 0
 
+function df --description 'Displays disk free space'
+  command df -H $argv
+end
+
+function lock
+  /System/Library/CoreServices/Menu\ Extras/User.menu/Contents/Resources/CGSession -suspend
+end
+
+function vlc
+    open -a vlc $argv
+end
+
 source /usr/local/etc/grc.fish
 
 # set SPACEFISH_PROMPT_ADD_NEWLINE false
@@ -41,5 +53,3 @@ alias rgs="rg -S"
 alias rgh="rg -uuS"
 alias rgt="rg -t"
 
-# vlc
-alias vlc="/Applications/VLC.app/Contents/MacOS/VLC"
