@@ -24,7 +24,7 @@ Plug 'autozimu/LanguageClient-neovim', {
     \ 'do': 'bash install.sh',
     \ }
 Plug 'christoomey/vim-tmux-navigator'
-Plug 'dracula/vim'
+Plug 'dracula/vim', { 'as': 'dracula' }
 Plug 'ervandew/supertab'
 Plug 'itchyny/lightline.vim'
 Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
@@ -179,7 +179,7 @@ let g:lightline#ale#indicator_warnings = "\uf071 "
 let g:lightline#ale#indicator_errors = "\uf05e "
 let g:lightline#ale#indicator_ok = "\uf00c"
 let g:lightline = {
-\ 'colorscheme': 'Dracula',
+\ 'colorscheme': 'dracula',
 \ 'active': {
 \     'left': [ [ 'mode', 'paste' ],
 \             [ 'fugitive', 'readonly', 'filename', 'modified' ] ],
