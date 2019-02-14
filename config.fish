@@ -45,6 +45,7 @@ alias lty="exa -ls=extension"
 alias llt="exa -lT"
 alias lg="exa -bghHliS --git"
 alias lga="exa -abghHliS --git"
+alias lsm="exa -ls=modified"
 
 alias md="mkdir"
 
