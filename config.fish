@@ -46,6 +46,7 @@ alias llt="exa -lT"
 alias lg="exa -bghHliS --git"
 alias lga="exa -abghHliS --git"
 alias lsm="exa -ls=modified"
+alias lss="exa -ls=size"
 
 alias md="mkdir"
 
