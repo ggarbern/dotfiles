@@ -55,3 +55,4 @@ alias rgs="rg -S"
 alias rgh="rg -uuS"
 alias rgt="rg -t"
 
+source ~/.iterm2_shell_integration.(basename $SHELL)
