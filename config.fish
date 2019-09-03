@@ -32,8 +32,8 @@ source /usr/local/etc/grc.fish
 # set SPACEFISH_PROMPT_ADD_NEWLINE false
 # set SPACEFISH_PROMPT_SEPARATE_LINE false
 # set SPACEFISH_USER_SHOW always
-set SPACEFISH_RUST_SYMBOL '🦀 '
-set SPACEFISH_RUST_VERBOSE_VERSION true
+# set SPACEFISH_RUST_SYMBOL '🦀 '
+# set SPACEFISH_RUST_VERBOSE_VERSION true
 
 # ls
 alias ls="exa"
@@ -56,3 +56,5 @@ alias rgh="rg -uuS"
 alias rgt="rg -t"
 
 source ~/.iterm2_shell_integration.(basename $SHELL)
+
+eval (starship init fish)
