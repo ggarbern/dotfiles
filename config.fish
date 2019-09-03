@@ -37,16 +37,16 @@ source /usr/local/etc/grc.fish
 
 # ls
 alias ls="exa"
-alias la="exa -la"
-alias ll="exa -l"
+alias la="exa -la --icons"
+alias ll="exa -l --icons"
 alias lll="exa -l | less"
-alias lt="exa -T"
+alias lt="exa -T --icons"
 alias lty="exa -ls=extension"
-alias llt="exa -lT"
+alias llt="exa -lT --icons"
 alias lg="exa -bghHliS --git"
-alias lga="exa -abghHliS --git"
-alias lsm="exa -ls=modified"
-alias lss="exa -ls=size"
+alias lga="exa -abghHliS --git --icons"
+alias lsm="exa -ls=modified --icons"
+alias lss="exa -ls=size --icons"
 
 alias md="mkdir"
 
