@@ -34,7 +34,7 @@ discharging_symbol = "💀"
 # deleted = "🗑"
 
 [hostname]
-ssh_only = false
-prefix = "⟪"
-suffix = "⟫"
+ssh_only = true
+# prefix = "⟪"
+# suffix = "⟫"
 disabled = false
