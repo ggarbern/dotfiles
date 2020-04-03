@@ -47,8 +47,10 @@ alias lg="exa -bghHliS --git --icons"
 alias lgt="lg -T"
 alias lga="lg -a"
 alias lgat="lga -T"
-alias lsm="exa -ls=modified -r --icons"
-alias lss="exa -ls=size -r --icons"
+alias lsm="exa -ls=modified --icons"
+alias lss="exa -ls=size --icons"
+alias lsmr="lsm -r"
+alias lssr="lss -r"
 
 alias md="mkdir"
 
