@@ -25,6 +25,7 @@ Plug 'autozimu/LanguageClient-neovim', {
     \ }
 Plug 'christoomey/vim-tmux-navigator'
 Plug 'dracula/vim', { 'as': 'dracula' }
+Plug 'kaicataldo/material.vim'
 Plug 'ervandew/supertab'
 Plug 'itchyny/lightline.vim'
 Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
@@ -93,7 +94,10 @@ endif
 
 " Syntax highlighting
 syntax on
-colorscheme dracula
+" colorscheme dracula
+let g:material_terminal_italics = 1
+let g:material_theme_style = 'palenight'
+colorscheme material
 
 " Set python3 hostpath for deoplete
 let g:python3_host_prog = '/usr/local/bin/python3'
@@ -179,7 +183,7 @@ let g:lightline#ale#indicator_warnings = "\uf071 "
 let g:lightline#ale#indicator_errors = "\uf05e "
 let g:lightline#ale#indicator_ok = "\uf00c"
 let g:lightline = {
-\ 'colorscheme': 'dracula',
+\ 'colorscheme': 'material_vim',
 \ 'active': {
 \     'left': [ [ 'mode', 'paste' ],
 \             [ 'fugitive', 'readonly', 'filename', 'modified' ] ],
