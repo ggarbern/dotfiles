@@ -35,7 +35,7 @@ source /usr/local/etc/grc.fish
 # set SPACEFISH_RUST_SYMBOL '🦀 '
 # set SPACEFISH_RUST_VERBOSE_VERSION true
 
-# ls
+# exa
 alias ls="exa"
 alias la="exa -la --icons"
 alias ll="exa -l --icons"
@@ -54,10 +54,13 @@ alias lssr="lss -r"
 
 alias md="mkdir"
 
-# rg
+# ripgrep
 alias rgs="rg -S"
 alias rgh="rg -uuS"
 alias rgt="rg -t"
+
+# skim
+alias skrg="sk --ansi -i -c 'rg --color=always --line-number "{}"'"
 
 source ~/.iterm2_shell_integration.(basename $SHELL)
 
